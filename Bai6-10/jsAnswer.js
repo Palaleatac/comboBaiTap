@@ -6,7 +6,7 @@ submit = document.getElementById("submitButton");
 randomNum = document.getElementById("random");
 randomNum.onclick = function () {
   let min = 1;
-  let max = 100;
+  let max = 10;
   document.getElementById("radius1").value = Math.trunc(Math.random() * max + min);
   document.getElementById("radius2").value = Math.trunc(Math.random() * max + min);
   document.getElementById("radius3").value = Math.trunc(Math.random() * max + min);
@@ -30,5 +30,5 @@ submit.onclick = function () {
     ` Rmin: ${Math.min(radius1, radius2, radius3, radius4, radius5)} `;
   console.log(
     `${Math.floor(radius1 / (2 * Math.PI))}; ${Math.floor(radius2 / (2 * Math.PI))}; ${Math.floor(radius3 / (2 * Math.PI))}; ${Math.floor(radius4 / (2 * Math.PI))}; ${Math.floor(radius5 / (2 * Math.PI))}`);
-  count=0;
+ count=0;
 };
