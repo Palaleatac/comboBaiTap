@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+</head>
+<body>
+    <div id="deBai">
+        <!-- Bài tập: Tạo ra 1 page thanh toán có:
+            Số dư,
+            Danh sách sản phẩm (có cả mua và không mua) aka 1 cái menu chọn món,
+            Phương thức thanh toán (>1 phương thức và chỉ được chọn 1 phương thức để thanh toán),
+            1 đoạn text để xác nhận (đủ hay thiếu tiền),
+            2 cái nút xác nhận (Xác nhận đơn hàng và Xác nhận thanh toán) -->
+    </div>
+
+    <div id="loiGiai">
+        <!-- <h1 id="wallet">Steam wallet: 3.000.000 VND</h1>
+        <div class="list">
+            <input type="checkbox" id="warhammer">
+            <label for="warhammer">Warhammer 40,000: Space Marine 2 -40%</label>
+                <s>830.000 VND</s>
+                <p style="color: green;" id="warhammercost">498.000</p>
+
+            <input type="checkbox" id="ori2">
+            <label for="ori2">Ori and the Will of the Wisp -50%</label>
+                <s>250.000 VND</s>
+                <p style="color: green;" id="ori2cost">125.000</p>
+
+            <input type="checkbox" id="pragmata">
+            <label for="pragmata">PRAGMATA -40%</label>
+                <s>1.250.000 VND</s>
+                <p style="color: green;" id="pragmatacost">750.000</p>
+
+            <input type="checkbox" id="tw">
+            <label for="tw">Total War: WARHAMMER TRILOGY (Collection) -25%</label>
+                <s>1.062.000 VND</s>
+                <p style="color: green;" id="twcost">796.500</p>
+
+            <input type="checkbox" id="gris">
+            <label for="gris">GRIS -75%</label>
+                <s>205.000 VND</s>
+                <p style="color: green;" id="griscost">51.000</p>
+        </div>
+        <br>
+        <button id="submitButton">Submit</button>
+        <div class="payment">
+            <input type="radio" id="visa" name="method">
+            <label for="visa">VISA</label>
+
+            <input type="radio" id="mastercard" name="method">
+            <label for="mastercard">Mastercard</label>
+
+            <input type="radio" id="steam" name="method">
+            <label for="steam">Steam wallet</label>
+        </div>
+        <h2 id="total">Total: </h2>
+        <h4 id="result"></h4>
+        <button id="pay">Pay</button> -->
+    </div>
+
+    <script>
+        /*const warhammer = document.getElementById("warhammer");
+        const ori2 = document.getElementById("ori2");
+        const pragmata = document.getElementById("pragmata");
+        const tw = document.getElementById("tw");
+        const gris = document.getElementById("gris");
+        const submit = document.getElementById("submitButton");
+        const pay = document.getElementById("pay");
+        let total = 0;
+        submit.onclick = function(){
+            total = 0;
+            document.getElementById("total").textContent = "Total: ";
+            let add = 0;
+            if(warhammer.checked) {add = Number(document.getElementById("warhammercost").textContent);total += add;}
+            if(ori2.checked) {add = Number(document.getElementById("ori2cost").textContent);total += add;}
+            if(pragmata.checked){add = Number(document.getElementById("pragmatacost").textContent);total += add;}
+            if(tw.checked) {add = Number(document.getElementById("twcost").textContent);total += add;}
+            if(gris.checked) {add = Number(document.getElementById("griscost").textContent);total += add;}
+            total *= 1000;
+            document.getElementById("total").textContent = document.getElementById("total").textContent + total;
+        }
+        pay.onclick=function(){
+            let money = document.getElementById("wallet").textContent;
+            money = money.replaceAll(".", "");
+            money = Number(money.slice(money.indexOf(":") + 2, money.indexOf("V")-1));
+            switch(true){
+                case document.getElementById("visa").checked:
+                    document.getElementById("result").textContent = "Redirecting to another page...";
+                    break;
+                case document.getElementById("mastercard").checked:
+                    document.getElementById("result").textContent = "Redirecting to another page...";
+                    break;
+                case document.getElementById("steam").checked:
+                    document.getElementById("result").textContent = (money >= total) ? "Thank you for your purchase!":"Your Steam wallet is dont has enough to pay!";
+                    document.getElementById("wallet").textContent = (money >= total) ? `Steam wallet: ${money - total} VND`:`Steam wallet: ${money} VND`;
+                    break;
+                default: document.getElementById("result").textContent = "";
+            }
+        }*/
+    </script>
+</body>
+</html>
