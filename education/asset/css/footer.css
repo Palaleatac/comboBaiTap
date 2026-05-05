@@ -1,0 +1,59 @@
+/* Footer */
+footer{
+    width: 100vw;
+    background-color: rgba(46, 33, 0, 1);
+    height: auto;
+}
+.contentf{
+    padding-top: 96px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+footer h2{
+    color: rgba(255, 255, 255, 1);
+}
+footer p{
+    color: rgba(191, 188, 178, 1);
+    font-size: 1.4rem;
+    margin: 12px auto 12px;
+}
+footer hr{
+    width: 1170px;
+    height:1px ;
+    background-color: rgba(89, 85, 75, 1);
+}
+.hf{
+    margin: 38px auto 28px auto;
+    margin-left: auto;
+    justify-self: center;
+}
+.hr-f{
+    width: 130px;
+    margin: 14px auto 28px 0;
+}
+.contentf span{
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.6rem;
+color: rgba(255, 255, 255, 1);
+}
+.f1{
+    width: 267px;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logos{
+    width: 111px;
+    height: 15px;
+}
+.f4{
+    width: 234px;
+}
+.pf{
+    justify-self: center;
+    padding-bottom: 28px;
+}

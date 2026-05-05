@@ -1,0 +1,98 @@
+.logo {
+  width: 85px;
+  height: 34px;
+}
+header {
+  width: 100vw;
+  height: 900px;
+  background-color: rgba(255, 252, 244, 1);
+}
+.menu1 {
+  width: 1170px;
+  height: 50px;
+  display: flex;
+  padding-top: 36px;
+  justify-self: center;
+  align-items: center;
+}
+.menuH1 {
+  width: 359px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 512px;
+  margin-right: 70px;
+}
+.line {
+  width: 12px;
+  height: 2px;
+  background-color: rgba(23, 17, 0, 1);
+  border-radius: 1px;
+  margin-bottom: 0;
+}
+.home {
+  color: rgba(23, 17, 0, 1);
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+.bodyH {
+  width: 1170px;
+  justify-self: center;
+  position: relative;
+}
+.hl {
+  margin-top: 64px;
+  position: absolute;
+  left: 0;
+}
+.boxHL {
+  border-radius: 12px;
+  width: 270px;
+  height: 244px;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  z-index: 1;
+  top: 393px;
+  left: 300px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+}
+.boxHL img {
+  margin: 16px auto auto 24px;
+}
+.hr {
+  margin-top: 128px;
+  position: absolute;
+  right: 0;
+  letter-spacing: -2%;
+  max-width: 470px;
+  height: 558px;
+}
+.h1Hr {
+  font-size: 5.8rem;
+  line-height: 6.8rem;
+}
+.hr button {
+  width: 180px;
+  height: 64px;
+  border-radius: 32px;
+}
+.hr p {
+  margin-top: 22px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.text {
+  margin-bottom: 38px;
+}
+.hr div {
+  width: 361px;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  color: rgba(23, 17, 0, 1);
+  font-size: 4.4rem;
+  line-height: 5.4rem;
+  font-weight: 700;
+}

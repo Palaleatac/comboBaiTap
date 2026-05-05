@@ -1,0 +1,45 @@
+/* B3 */
+#B3 {
+  width: 100vw;
+  height: 438px;
+  margin: 200px auto 200px auto;
+}
+.contentB3 {
+  width: 1170px;
+  height: 438px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+.imgB3 {
+  width: 570px;
+  height: 438px;
+  display: flex;
+  justify-content: space-between;
+}
+.i1 {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+  align-self: end;
+}
+.i2 {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+  align-self: start;
+}
+.right-B3 {
+  width: 470px;
+  height: 322px;
+  align-self: center;
+}
+.right-B3 p {
+  margin-top: 16px;
+}
+.right-B3 button {
+  margin-top: 32px;
+  width: 137px;
+}

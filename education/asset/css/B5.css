@@ -1,0 +1,61 @@
+/* B5 */
+#B5{
+    width: 100vw;
+    height: 878px;
+    margin-top: 200px;
+    text-align: center;
+    background-color: rgba(255, 252, 244, 1);
+}
+#B5 h1{
+    padding-top: 96px;
+}
+.pb5{
+    max-width: 448px;
+    justify-self: center;
+    margin: 16px auto 55px auto;
+}
+.BodyB5{
+    width: 1170px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+.body-box{
+    height: 169px;
+    margin-left: 20px;
+    text-align: start;
+}
+.box{
+    width: 370px;
+    height: 467px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}
+.h-bbox{
+    display: flex;
+    justify-self: start;
+    margin: 20px auto 12px 0;
+}
+.h-bbox p{
+    margin-left: 4px;
+}
+hr{
+    width: 160px;
+    height: 1px;
+    margin-left: 0;
+    margin-bottom: 12px;
+    background-color: rgba(226, 223, 218, 1);
+    border: none;
+}
+.body-box button{
+    width: 118px;
+    margin-top: 12px;
+}
+.box:hover{
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+.fB5{
+    justify-self: center;
+    margin-top: 38px;
+}

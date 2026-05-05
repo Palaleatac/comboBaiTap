@@ -1,0 +1,72 @@
+/* courser [B1] */
+#B1 {
+  margin-top: 200px;
+  width: 100vw;
+  height: 645px;
+  margin-bottom: 200px;
+}
+.hea-B1 {
+  width: 1170px;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HB1L {
+  width: 458px;
+  height: 124px;
+}
+.HB1L p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-top: 16px;
+}
+.bodyB1 {
+  margin-top: 55px;
+  width: 1170px;
+  height: 470px;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+}
+.card {
+  width: 370px;
+  height: 466px;
+  border-radius: 12px;
+  border: 1px solid rgba(226, 223, 218, 1);
+  overflow: hidden;
+}
+.card .img {
+    width: 370px;
+    height: 287px;
+  object-fit: cover;
+}
+.card div {
+  width: 326px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  align-items: center;
+}
+.card div img {
+  width: 48px;
+  height: 28px;
+}
+.card p {
+  max-width: 326px;
+  display: flex;
+  justify-self: center;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.card div .button {
+  width: 118px;
+  height: 50px;
+}
+.card:hover {
+  border: none;
+  box-shadow: 0 18px 36px 0 rgba(0, 0, 0, 0.05);
+}
