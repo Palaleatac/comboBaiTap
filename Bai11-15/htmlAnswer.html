@@ -1,12 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Answer Sheet</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Tao tạo .html này để chúng mày không cần làm :>> -->
-     <script src="jsAnswer.js"></script>
-</body>
+    <h1 id="wallet">E-wallet: 3.000.000 VND</h1>
+    <div class="list">
+      <input type="checkbox" id="item1" />
+      <label for="item1"
+        >Hand bag:
+        <p style="color: green" id="p-item1">499.000 VND</p>
+        <s style="font-size: small">1.000.000 VND</s>
+      </label>
+      <br />
+      <input type="checkbox" id="item2" />
+      <label for="item2"
+        >High heels:
+        <p style="color: green" id="p-item2">1.000.000 VND</p>
+        <s style="font-size: small">1.250.000 VND</s>
+      </label>
+      <br />
+      <input type="checkbox" id="item3" />
+      <label for="item3"
+        >Boots:
+        <p style="color: green" id="p-item3">799.000 VND</p>
+        <s style="font-size: small">1.250.000 VND</s>
+      </label>
+      <br />
+      <input type="checkbox" id="item4" />
+      <label for="item4"
+        >Combo makeup:
+        <p style="color: green" id="p-item4">999.999 VND</p>
+        <s style="font-size: small">1.062.000 VND</s>
+      </label>
+      <br />
+      <input type="checkbox" id="item5" />
+      <label for="item5"
+        >Hat:
+        <p style="color: green" id="p-item5">100.000 VND</p>
+        <s style="font-size: small">205.000 VND</s>
+      </label>
+    </div>
+    <br />
+    <button id="submitButton" style="font-size: medium">Submit</button>
+    <h2 id="total">Total:</h2>
+    <br />
+    <div class="payment">
+      <input type="radio" id="e-wallet" name="method" />
+      <label for="e-wallet">E-wallet</label>
+
+      <input type="radio" id="credit-card" name="method" />
+      <label for="credit-card">Credit card</label>
+
+      <input type="radio" id="cash" name="method" />
+      <label for="cash">Cash</label>
+    </div>
+    <br />
+    <button id="pay" style="font-size: medium">Pay</button>
+    <br />
+    <h3 id="result"></h3>
+    <script src="jsAnswer.js"></script>
+  </body>
 </html>
