@@ -1,12 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Answer Sheet</title>
-</head>
-<body>
-    <!-- Tao tạo .html này để chúng mày không cần làm :>> -->
-     <script src="jsAnswer.js"></script>
-</body>
+  </head>
+  <body>
+    <h1 id="wallet">Steam wallet: 3.000.000 VND</h1>
+    <div class="list">
+      <input type="checkbox" id="warhammer" />
+      <label for="warhammer">Warhammer 40,000: Space Marine 2 -40%</label>
+      <s>830.000 VND</s>
+      <p style="color: green" id="warhammercost">498.000</p>
+
+      <input type="checkbox" id="ori2" />
+      <label for="ori2">Ori and the Will of the Wisp -50%</label>
+      <s>250.000 VND</s>
+      <p style="color: green" id="ori2cost">125.000</p>
+
+      <input type="checkbox" id="pragmata" />
+      <label for="pragmata">PRAGMATA -40%</label>
+      <s>1.250.000 VND</s>
+      <p style="color: green" id="pragmatacost">750.000</p>
+
+      <input type="checkbox" id="tw" />
+      <label for="tw">Total War: WARHAMMER TRILOGY (Collection) -25%</label>
+      <s>1.062.000 VND</s>
+      <p style="color: green" id="twcost">796.500</p>
+
+      <input type="checkbox" id="gris" />
+      <label for="gris">GRIS -75%</label>
+      <s>205.000 VND</s>
+      <p style="color: green" id="griscost">51.000</p>
+    </div>
+    <br />
+    <button id="submitButton">Submit</button>
+    <div class="payment">
+      <input type="radio" id="visa" name="method" />
+      <label for="visa">VISA</label>
+
+      <input type="radio" id="mastercard" name="method" />
+      <label for="mastercard">Mastercard</label>
+
+      <input type="radio" id="steam" name="method" />
+      <label for="steam">Steam wallet</label>
+    </div>
+    <h2 id="total">Total:</h2>
+    <h4 id="result"></h4>
+    <button id="pay">Pay</button>
+    <script src="jsAnswer.js"></script>
+  </body>
 </html>
